@@ -21,10 +21,13 @@ body{
   font-family: "Poppins", sans-serif;
 
 }
+.random .container {
+  padding-top: 4.2em;
+}
 
 .tittle{
   background-color: white;
-  max-width:550px; 
+  max-width:510px; 
   box-shadow: 0 10px 10px #17203D;
 
   
@@ -52,17 +55,14 @@ body{
 
 
 .card .quote{
-  width: 500px;
-   color: #17203D !important;
+  color: #17203D !important;
   font-weight: 500;
-  font-size:24px;
+  font-size:18px;
   text-align: left;
-  padding:15px;
-
-
+  padding:10px;
 }
 .card .quote p{
-font-size: 18px;
+font-size:12px;
 max-width:400px;
 
 }
@@ -82,7 +82,7 @@ max-width:400px;
 
 
 .fa-quote-left, .fa-quote-right {
-  font-size: 35px;
+  font-size:24px;
   color: #6998b0;
 }
 
@@ -104,26 +104,28 @@ hr {
 
 @media screen and (max-width:540px){
   .card-body{
-      width: 320px !important;
+      width:250px !important;
       margin: 10px 0;
       
       
     }
     .card {
-        width: 400px !important;
+        width:300px !important;
         
     }  
     
     .card-body .quote {
         text-align: center;
-        font-size: 16px !important;
+        font-size: 12px !important;
         max-width:300px !important;
         padding:0px 10px;
         font-weight: 200;
     }
 
     .tittle  {
-        margin-bottom: 1em !important;
+        margin-bottom: 0.5em !important;
+        max-width:310px; 
+
     }
 
 
@@ -133,13 +135,13 @@ hr {
 
 @media screen and (min-width:541px) and (max-width:768px){
   .card-body{
-      width: 420px !important;
+      width: 450px !important;
       margin: 5px 0;
       
       
     }
     .card {
-        width: 480px !important;
+        width: 500px !important;
         
     }  
     
@@ -155,6 +157,8 @@ hr {
         margin-bottom: 1em !important;
         margin: auto;
         padding: 50px 0 ;
+        max-width:410px; 
+
     }
 
 
@@ -169,7 +173,7 @@ hr {
       
     }
     .card {
-        width: 550px !important;
+        width:500px !important;
         
     }  
     
@@ -183,10 +187,12 @@ hr {
 
     .tittle  {
         margin-bottom: 1em !important;
-        padding: 70px 0;
+        padding:50px 0;
+        max-width:410px; 
+
     }
 
-
+    
 }
 
 
