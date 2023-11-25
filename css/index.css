@@ -110,7 +110,7 @@ hr {
       
     }
     .card {
-        width:300px !important;
+        width:315px !important;
         
     }  
     
@@ -141,8 +141,8 @@ hr {
       
     }
     .card {
-        width: 500px !important;
-        
+        width:500px !important;
+        padding: 10px;
     }  
     
     .card-body .quote {
